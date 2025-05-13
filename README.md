@@ -5,7 +5,7 @@ Predict finger joint angles from surface EMG signals using machine learning, des
 ## Features
 - Multi-Layer Perceptron (MLP) for joint angle prediction (`model.py`)
 - EMG-Joint Angle Alignment with convolving RMS windows (`align_emg.py`)
-- MediaPipe-based Kinematics Extraction** from video input (`extract_joint_angles.py`)
+- MediaPipe-based Kinematics Extraction from video input (`extract_joint_angles.py`)
 - Real-time compatible processing pipeline (1000Hz EMG → 60Hz joint angles)
 
 ## Installation
