@@ -13,3 +13,6 @@ Predict finger joint angles from surface EMG signals using machine learning, des
 git clone https://github.com/risray700/EMG_Joint_Decode.git
 cd EMG_Joint_Decode
 pip install -r requirements.txt
+
+## Instructions
+python extract_joint_angles.py --input hand_movement.mp4 --output angles.csv
